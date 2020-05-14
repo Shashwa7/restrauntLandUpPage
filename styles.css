@@ -42,6 +42,11 @@ img{
     max-width: 100%; 
     /* this make sure that if image is too big for the section it won't overflow!  */
 }
+.logo img{
+    width: 180px;
+    height: auto;
+    margin-top: 10rem;
+}
 
 a{
     text-decoration: none;
@@ -530,7 +535,9 @@ footer{
     section{
         padding: 7.9rem;
     }
-
+    .logo img{
+        margin: initial;
+    }
     .menu-toggle{
         display: none;
     }
